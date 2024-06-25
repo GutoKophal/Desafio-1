@@ -21,7 +21,7 @@ header {
 
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 30px;
     font-weight: bold;
     color: white;
 }
@@ -52,14 +52,72 @@ header nav ul li a {
     margin-right: 40px;
 }
 .contact-button {
-    background-color: orange;
+    background-color: #FA9021;
     color: white;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin-right: 20px;
+    cursor: pointer
+}
+
+/*-------------------main---------------------*/
+
+/*-------------------introduction---------------------*/
+.controller {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.text-controller {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-left: 50px;
+}
+
+.controller h3 {
+    color: #E87D0E;
+    text-shadow: 
+            -2px -1px 0 #000,  
+            1px -1px 0 #000,
+            -2px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+.controller h1 {
+    font-size: 70px;
+}
+
+.controller p {
+    font-size: 25px;
+}
+
+.controller-button {
+    background: linear-gradient(45deg, #FA8305, #FB9E3C);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 35px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    max-width: 200px;
+}
+
+.logos {
+    max-width: 45%;
+}
+
+.logos img {
+    max-width: 200%;
+    height: auto;
 }
 
 /*------------------- footer ------------------- */

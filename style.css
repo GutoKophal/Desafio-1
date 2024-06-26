@@ -19,38 +19,49 @@ header {
     color: inherit;
 }
 
-
-.logo {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-}
-
-header nav ul {
-    list-style: none;
+.nav {
     display: flex;
-    gap: 1rem;
-}
-
-header nav ul li {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
     margin: 0;
-    font-size: 20px;
 }
 
-header nav ul li a {
-    color: white;
+.nav a {
     text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
 }
 
-.contact-header {
-    color: white;
-    padding: 15px 20px;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-right: 40px;
+.nav a:hover {
+    background: orange;
 }
+
+@media all and (max-width: 800px) {
+    .nav {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .nav {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+    .nav a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .nav li:last-of-type a {
+        border-bottom: none;
+    }
+}
+
 .contact-button {
     background-color: #FA9021;
     color: white;
@@ -61,6 +72,12 @@ header nav ul li a {
     display: inline-block;
     margin-right: 20px;
     cursor: pointer
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
 }
 
 /*-------------------main---------------------*/
@@ -82,11 +99,11 @@ header nav ul li a {
 
 .controller h3 {
     color: #E87D0E;
-    text-shadow: 
-            -2px -1px 0 #000,  
-            1px -1px 0 #000,
-            -2px 1px 0 #000,
-            1px 1px 0 #000;
+    text-shadow:
+        -2px -1px 0 #000,
+        1px -1px 0 #000,
+        -2px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 .controller h1 {
@@ -116,7 +133,7 @@ header nav ul li a {
 }
 
 .logos img {
-    max-width: 200%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -192,11 +209,12 @@ footer {
 }
 
 .footer-text p {
-    margin: 50px 0 50px 0 ;
+    margin: 50px 0 50px 0;
     word-break: break-word;
 }
 
-.footer-links ul, .footer-contact p {
+.footer-links ul,
+.footer-contact p {
     margin: 0;
     padding: 0;
 }

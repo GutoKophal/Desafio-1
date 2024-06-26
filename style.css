@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     background-color: #39289F;
     color: white;
 }
@@ -12,6 +11,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 10;
 }
 
 .logo-link {
@@ -25,6 +26,7 @@ header {
     justify-content: flex-end;
     list-style: none;
     margin: 0;
+    z-index: 10;
 }
 
 .nav a {
@@ -36,6 +38,7 @@ header {
 
 .nav a:hover {
     background: orange;
+    text-decoration: underline
 }
 
 @media all and (max-width: 800px) {
@@ -80,6 +83,19 @@ header {
     color: white;
 }
 
+.img-controller {
+    position: absolute;
+    top: 400%;
+    right: -90px;
+    transform: translateY(-50%);
+    z-index: 0;
+    max-width: 60%;
+}
+
+.img-controller img {
+    max-width: 100%;
+    height: auto;
+}
 /*-------------------main---------------------*/
 
 /*-------------------introduction---------------------*/
@@ -107,11 +123,11 @@ header {
 }
 
 .controller h1 {
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .controller p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .controller-button {
@@ -128,13 +144,8 @@ header {
     max-width: 200px;
 }
 
-.logos {
-    max-width: 45%;
-}
-
-.logos img {
-    max-width: 100%;
-    height: auto;
+.text-controller h1, .text-controller p, .controller-button {
+    margin-bottom: 50px; 
 }
 
 /*------------------- Trending Games ------------------- */
@@ -200,6 +211,7 @@ footer {
     color: white;
     padding: 20px;
     text-align: left;
+    font-size: 15px;
 }
 
 .footer-content {

@@ -1,0 +1,77 @@
+.contact-body {
+    margin: 0;
+    background: linear-gradient(180deg, #2211E7, #383837);
+    color: white;
+    position: relative;
+}
+
+.introduction-map {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 5%;
+}
+
+.contact-cor {
+    color: #E47500;
+    font-weight: bold;
+}
+
+.world-map {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.world-map img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 5%;
+}
+
+.contact-section > div {
+    flex: 1;
+    padding: 15px;
+    position: relative;
+}
+s
+.follow-us p{
+    display: flex;
+    margin-left: 25%;
+}
+
+.follow-us img {
+    max-width: 75px;
+}
+
+.contact-info,.location-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info img,
+.location-info img {
+    max-width: 35px;
+    margin-right: 10px;
+}
+
+.contact-info span,
+.location-info span {
+    vertical-align: middle;
+}

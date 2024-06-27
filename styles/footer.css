@@ -1,0 +1,64 @@
+/*------------------- footer ------------------- */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-text p {
+    margin: 50px 0 50px 0;
+    word-break: break-word;
+}
+
+.footer-links ul,
+.footer-contact p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 100%;
+    clear: both;
+}
+
+.footer-contact p {
+    margin-top: 50px;
+}
+
+.footer-social {
+    margin-top: 8%;
+}

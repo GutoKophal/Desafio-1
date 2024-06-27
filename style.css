@@ -287,13 +287,20 @@ header {
 /*------------------- mountain ------------------- */
 .mountain {
     background-image: url("images/img-background.png");
+    background-size: cover; /* cobre todo o contêiner */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* evita a repetição da imagem */
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .text-mountain {
     text-align: center;
+    margin-top: 90px;
     margin-bottom: 20px;
     line-height: 2.0;
 }
@@ -302,39 +309,73 @@ header {
     margin-bottom: 50px;
 }
 
-.icons-mountain-top {
+.icons-mountain {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
+    justify-content: center;
+    width: 100%;
 }
 
-.text-top {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
+.icons-mountain img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.top-list {
-    list-style-type: none;
+/*------------------- Our recent projects ------------------- */
+.recent-project {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text-project {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    line-height: 2.0;
+}
+
+.img-project {
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
-.arrow-top {
+.img-project-row {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
+    justify-content: center;
+    gap: 20px;
 }
 
-icons
+.img-project-row img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button-project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 30vh;
+
+}
+
+.button-project {
+    background-color: #422F9C;
+    color: white;
+    padding: 20px 35px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-left: 10px;
+}
 /*------------------- footer ------------------- */
 
 footer {

@@ -186,9 +186,9 @@ body {
 /*------------------- mountain ------------------- */
 .mountain {
     background-image: url("images/img-background.png");
-    background-size: cover; /* cobre todo o contêiner */
-    background-position: center; /* centraliza a imagem */
-    background-repeat: no-repeat; /* evita a repetição da imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -202,6 +202,10 @@ body {
     margin-top: 90px;
     margin-bottom: 20px;
     line-height: 2.0;
+}
+
+.text-mountain h3 {
+    font-size: 35px;
 }
 
 .text-mountain h2{

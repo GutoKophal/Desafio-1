@@ -1,3 +1,4 @@
+/*---------------------Introduction-----------------*/
 .contact-body {
     margin: 0;
     background: linear-gradient(180deg, #2211E7, #383837);
@@ -75,3 +76,85 @@ s
 .location-info span {
     vertical-align: middle;
 }
+
+/*---------------------Form-----------------*/
+
+.form {
+    background-image: url("images/background-forms.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C140F;
+}
+
+.title-form {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #FFFFFF;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+    background-color: #CECECE;
+}
+
+.form-group.inline {
+    display: flex;
+    gap: 40px;
+}
+
+.form-group.inline > div {
+    flex: 1;
+}
+
+textarea#message {
+    height: 200px;
+}
+
+.form-group.button-group {
+    text-align: right;
+}
+
+.form-group button {
+    padding: 17px 35px;
+    font-size: 15px;
+    background-color: #DC7000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: right; 
+}
+
+.form-group button:hover {
+    background-color: #d06600;
+}
+
+

@@ -376,6 +376,102 @@ header {
     transition: background 0.3s;
     margin-left: 10px;
 }
+
+/*------------------- subscription ------------------- */
+.subscription {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 10%;
+}
+
+
+.tittle-subscription {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-bottom: 5%;
+}
+
+.tittle-subscription h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.tittle-subscription p {
+    font-size: 20px;
+}
+
+.box-subscription {
+    background-color: #1c150d; /* Cor de fundo da caixa de inscrição */
+    border-radius: 10px;
+    padding: 40px; /* Aumenta o padding para tornar a caixa maior */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Aumenta a largura máxima da caixa */
+    margin: 0 auto; /* Centraliza a caixa */
+}
+
+.text-subscription {
+    color: white;
+    margin-right: 20px;
+}
+
+.text-subscription h2 {
+    margin: 0 0 10px;
+    font-size: 30px;
+}
+
+.text-subscription p {
+    margin: 0;
+    font-size: 19px;
+}
+
+.input-subscription {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 500px; /* Aumenta a largura máxima do input */
+}
+
+.input-subscription input[type="email"] {
+    width: 100%;
+    padding: 20px; /* Ajusta o padding */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+.input-subscription button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding:  0 20px;
+    background-color: #f28d17; /* Cor do botão */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    height: 77%; 
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+
 /*------------------- footer ------------------- */
 
 footer {

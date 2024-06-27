@@ -5,6 +5,7 @@
 O objetivo deste projeto é recriar duas páginas de um site fictício de uma loja de games, mantendo-se fiel ao design original utilizando HTML, CSS e JavaScript.
 
 ##Link para o Figma Original
+
 https://www.figma.com/file/Vzl8xfN2v8PF8fX5trpKKX/Desafio-1?type=design&mode=design&t=RCXg9fPLBOUDDkdM-1
 
 ### Descrição do Header e Footer

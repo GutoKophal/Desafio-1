@@ -80,7 +80,7 @@ s
 /*---------------------Form-----------------*/
 
 .form {
-    background-image: url("images/background-forms.png");
+    background-image: url("../images/background-forms.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

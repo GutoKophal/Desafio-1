@@ -10,6 +10,7 @@ header {
     font-weight: 100;
     font-style: normal;
     font-weight: bold;
+    z-index: 10;
 }
 
 .logo-link {
@@ -87,11 +88,12 @@ header {
 
 .img-controller {
     position: absolute;
-    top: 400%;
-    right: -90px;
+    top: 350%;
+    right: 20px;
     transform: translateY(-50%);
     z-index: 0;
-    max-width: 60%;
+    max-width: 50%;
+    z-index: -1;
 }
 
 .img-controller img {

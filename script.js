@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function checkFormValidity() {
-        if (validateName(firstName.value) && validateName(lastName.value) && validateEmail(email.value) &&message.value.length >= 10) {
+        if (validateName(firstName.value) && validateName(lastName.value) && validateEmail(email.value) && message.value.length >= 10) {
             submitButton.disabled = false;
         } else {
             submitButton.disabled = true;

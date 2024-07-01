@@ -1,0 +1,36 @@
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2211E7;
+    margin: 0;
+}
+
+.error-message {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.error-links {
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+}
+
+.error-links p {
+    margin: 0;
+}
+
+.error-links a {
+    color: #2211E7; 
+    text-decoration: none; 
+}
+
+.error-links a:hover {
+    text-decoration: underline;
+}

@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function validateName(name) {
-        const re = /^[a-zA-Z\s]+$/;
+        const re = /^[a-zA-ZÀ-ÿ\s]+$/;
         return re.test(String(name));
     }
 
@@ -40,6 +40,11 @@ document.addEventListener("DOMContentLoaded", function() {
             message: message.value
         };
         localStorage.setItem("formData", JSON.stringify(formData));
+        firstName.value = "";
+        lastName.value = "";
+        email.value = "";
+        message.value = "";
+        submitButton.disabled = true;
         window.location.href = "success.html";
     });
 });

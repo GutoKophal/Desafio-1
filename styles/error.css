@@ -1,25 +1,39 @@
 body {
+    margin: 0;
+    background-color: #2211E7;
+    color: white;
+    position: relative;
     font-family: "Poppins", sans-serif;
+}
+
+.error-message-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #2211E7;
     margin: 0;
 }
 
 .error-message {
-    background-color: #fff;
+    background-color: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center; 
+    text-align: center;
+    color: black;
+    width: 80%;
+    max-width: 400px;
+}
+
+.error-message h1, .error-message p {
+    color: black;
 }
 
 .error-links {
     display: flex;
-    gap: 10px; 
-    justify-content: center; 
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .error-links p {
@@ -27,10 +41,11 @@ body {
 }
 
 .error-links a {
-    color: #2211E7; 
-    text-decoration: none; 
+    color: #2211E7;
+    text-decoration: none;
 }
 
 .error-links a:hover {
     text-decoration: underline;
 }
+

@@ -4,8 +4,6 @@ body {
     color: white;
     position: relative;
 }
-/*-------------------main---------------------*/
-
 /*-------------------introduction---------------------*/
 .controller {
     display: flex;
@@ -190,15 +188,16 @@ body {
 }
 
 .img-banner {
+    position: relative;
     width: 100%;
     max-width: 100%;
     height: auto;
-    z-index: 1;
+    z-index: 10;
 }
 
 .img-balls {
     position: absolute;
-    top: 50%;
+    top: 2%;
     right: 10%;
     transform: translateY(-50%);
     max-width: 20%;

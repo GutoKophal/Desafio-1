@@ -121,7 +121,8 @@ s
     font-size: 16px;
     border: 1px solid #CECECE;
     border-radius: 5px;
-    background-color: #CECECE;
+    background-color: #2c2420;
+    color: white;
 }
 
 .form-group.inline {

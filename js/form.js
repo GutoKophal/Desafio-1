@@ -45,6 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
         email.value = "";
         message.value = "";
         submitButton.disabled = true;
-        window.location.href = "success.html";
+        window.location.href = "../pages/success.html";
     });
 });
